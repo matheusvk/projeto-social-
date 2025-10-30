@@ -1,13 +1,11 @@
-/* CSS Geral do Site */
 
-/* Reset básico para tirar margens e padding padrão do navegador */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo do corpo do site */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -16,12 +14,11 @@ body {
     padding: 20px;
 }
 
-/* Cabeçalhos */
 h1, h2, h3 {
     color: #2c3e50;
 }
 
-/* Links */
+
 a {
     color: #2980b9;
     text-decoration: none;
@@ -31,7 +28,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Seções */
+
 section {
     margin-bottom: 30px;
     padding: 15px;
@@ -40,7 +37,7 @@ section {
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-/* Imagens */
+
 img {
     max-width: 100%;
     height: auto;
