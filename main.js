@@ -1,7 +1,7 @@
-// Espera o HTML carregar antes de executar o código
+
 document.addEventListener("DOMContentLoaded", function() {
 
-    // Exemplo 1: Menu mobile toggle (se você tiver menu)
+   
     const menuBtn = document.querySelector(".menu-btn");
     const nav = document.querySelector("nav");
 
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Exemplo 2: Scroll suave para links internos
+    
     const links = document.querySelectorAll('a[href^="#"]');
 
     links.forEach(link => {
@@ -24,11 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Exemplo 3: Alterar cabeçalho ao rolar a página
+    
     const header = document.querySelector("header");
     window.addEventListener("scroll", function() {
         if(window.scrollY > 50) {
-            header.classList.add("scroll"); // você pode criar CSS para "scroll"
+            header.classList.add("scroll"); 
         } else {
             header.classList.remove("scroll");
         }
